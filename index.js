@@ -10,6 +10,7 @@ const muppet = {
   partner: 'Miss Piggy'
 };
 
+
 const k_muppet = {
   k_name: 'Kermit',
   k_color: 'green',
@@ -57,5 +58,6 @@ const [ , , , , , indg,] = colors
 
 // 7. Use destructuring to assign all appropriate variables using the keys as the variable names
 
+const {name, color, song, job, partner} = muppet
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
